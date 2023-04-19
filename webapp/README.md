@@ -23,10 +23,12 @@ Use the following commands to start the server
 
 ```bash
 npm run start
-```.
+```
+
 ```bash
 npm run watch
-``` 
+```
+ 
 Visit <https://localhost:5000>.
 
 ### Testing
@@ -35,7 +37,8 @@ Visit <https://localhost:5000>.
 
 Run the following command to test application
 
-```npm run test
+```bash
+npm run test
 ``` 
 
 ## Database
