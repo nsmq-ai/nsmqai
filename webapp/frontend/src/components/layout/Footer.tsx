@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center p-4 bg-grey text-gray-600 mb-4 px-10">
+    <div className="flex justify-between items-center p-4 text-white mb-4 px-10">
       <div className="flex items-center space-x-4">
         <Image
           src="/KwameAILogo.png"
@@ -22,11 +22,11 @@ const Footer = () => {
       </div>
 
       <div className="flex items-center space-x-4">
-        <a href="https://github.com/nsmq-ai/nsmqai" className="text-gray-600 hover:text-gray-800 ">
+        <a
+          href="https://github.com/nsmq-ai/nsmqai"
+          className="text-gray-300 hover:text-gray-500 "
+        >
           <FaGithub />
-        </a>
-        <a href="https://github.com/nsmq-ai/nsmqai" className="text-gray-600 hover:text-gray-800 ">
-          <FaLinkedin />
         </a>
       </div>
     </div>
