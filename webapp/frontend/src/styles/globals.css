@@ -9,7 +9,6 @@
 }
 
 body {
-  background-color: white;
-  color: black;
+  @apply bg-gray-900 text-white;
   @apply font-primary;
 }
