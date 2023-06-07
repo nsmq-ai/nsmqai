@@ -13,7 +13,7 @@ module.exports = {
         mildRed: "#FF4848",
       },
       fontFamily: {
-        primary: ["Nunito", "sans-serif"],
+        primary: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
