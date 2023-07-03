@@ -3,7 +3,7 @@
 ## Setup
 - The code can be run locally. Follow steps here to setup a python environment for streamlit https://docs.streamlit.io/library/get-started/installation
 - Install whisper in the virtual python environment following steps here https://pypi.org/project/openai-whisper
-- Install dependencies by running `pip install -r requirements.txt` in this directory
+- Install necessary dependencies by running command `pip install -r requirements.txt` from this directory
 
 ## Deploy
 - From the local directory, run command from terminal `streamlit run NSQM_AI.py`
