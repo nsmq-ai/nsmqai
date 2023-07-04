@@ -23,7 +23,7 @@ DEMO_AUDIO_3_PATH  = './assets/audio/audio_video3.mp3'
 AUDIO_CHUNK_FOLDER_PATH = './audioChunks'
 
 # API ENDPOINTS
-STT_API = ''
+STT_API = 'https://b27e-34-126-109-130.ngrok-free.app'
 QA_API = ''
 TTS_API = ''
 
@@ -39,7 +39,10 @@ TIMEOUT=3                   # Timeout for getting frames from the audio receiver
 # API FUNCTIONS
 def get_stt_text():
     response = requests.get(STT_API)
-    return response.json()
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return "error"
 
 def get_qa_answer(question):
     response = requests.get(QA_API, data=question)
